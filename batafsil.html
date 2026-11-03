@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrSU Clubs — Klublar va Haftalik Jadval</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="top" class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="UrSU Clubs Bosh sahifa">
+        <span class="logo-icon">U</span>
+        <span class="logo-text">UrSU <strong>Clubs</strong></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Asosiy navigatsiya">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Bosh sahifa</a></li>
+          <li><a href="batafsil.html" class="nav-link active">Klublar va Jadval</a></li>
+          <li><a href="aloqa.html" class="nav-link">A'zo bo'lish</a></li>
+        </ul>
+      </nav>
+
+      <a href="aloqa.html" class="btn btn-primary nav-cta">Ro'yxatdan o'tish</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container hero-center-box">
+        <span class="section-badge">Batafsil ma'lumot va dars jadvali</span>
+        <h1 class="page-title">Klub yo'nalishlari dasturi va mashg'ulotlar jadvali</h1>
+        <p class="hero-subtitle">
+          Urganch davlat universiteti talabalar klublarining o'quv yo'nalishlari, laboratoriya xonalari, ustoz-mentorlari hamda 2026–2027 o'quv yili uchun qabul kvotalari bilan tanishing.
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">O'quv dasturi</span>
+          <h2 class="section-title">Har bir klubda nimalarni o'rganasiz?</h2>
+          <p class="section-subtitle">
+            Mashg'ulotlar nazariy ma'ruzalardan xoli bo'lib, 80% amaliy ustaxona (workshop) va jamoaviy loyiha shaklida o'tkaziladi.
+          </p>
+        </div>
+        <div class="cards-row">
+          <article id="it-club" class="card">
+            <!-- [B6] Position relative + absolute badge -->
+            <span class="card-badge badge-popular">Top yo'nalish</span>
+            <h3 class="card-title">1. IT va Kiberxavfsizlik Klubi</h3>
+            <p class="card-text">
+              Talabalar HTML5, CSS3, JavaScript, Python hamda Linux tizimi ma'muriyatchiligini o'rganadilar. Har shanba kuni "Capture The Flag" (CTF) kiber-xavfsizlik musobaqalari o'tkaziladi.
+            </p>
+            <ul class="detail-list">
+              <li><strong>Asosiy texnologiyalar:</strong> Python, React, Docker, Kali Linux</li>
+              <li><strong>Mas'ul mentor:</strong> dots. S. Raximov va 4-kurs talabalari</li>
+              <li><strong>Yakuniy natija:</strong> GitHub portfolioda 3 ta tayyor veb-loyiha</li>
+            </ul>
+          </article>
+
+          <article id="robotics-club" class="card">
+            <span class="card-badge badge-open">Laboratoriya</span>
+            <h3 class="card-title">2. Robototexnika va Muhandislik</h3>
+            <p class="card-text">
+              Fizika-matematika va kompyuter injiniringi talabalari uchun apparat dasturlash (C/C++), sensorlar bilan ishlash, 3D-printerda detallar chop etish va aqlli issiqxona (IoT) maketlarini yig'ish o'rgatiladi.
+            </p>
+            <ul class="detail-list">
+              <li><strong>Asosiy jihozlar:</strong> Arduino Uno, ESP32, Raspberry Pi 5</li>
+              <li><strong>Mas'ul mentor:</strong> katta o'qituvchi M. Matyoqubov</li>
+              <li><strong>Yakuniy natija:</strong> "Robo-Sumo" va "Line Follower" roboti</li>
+            </ul>
+          </article>
+
+          <article id="book-club" class="card">
+            <span class="card-badge badge-new">Dam olish kuni</span>
+            <h3 class="card-title">3. Kitobxonlar va Shaxsiy Rivojlanish</h3>
+            <p class="card-text">
+              Har ikki haftada bitta jahon bestseleri yoki ilmiy-ommabop asar tanlanib, taqdimot va debat shaklida tahlil qilinadi. Talabalarda akademik yozuv va ommaviy nutq ko'nikmalari shakllantiriladi.
+            </p>
+            <ul class="detail-list">
+              <li><strong>O'qiladigan kitoblar:</strong> "Deep Work", "Atom odatlar", "Alximik"</li>
+              <li><strong>Mas'ul koordinator:</strong> Filologiya fakulteti faoli D. Karimova</li>
+              <li><strong>Yakuniy natija:</strong> "Zukko Kitobxon" tanlovi va sertifikat</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Rasmiy jadval</span>
+          <h2 class="section-title">Klublarning haftalik mashg'ulotlar va kvotalar jadvali</h2>
+          <p class="section-subtitle">
+            Mashg'ulotlar 1- va 2-smena talabalari darsdan bo'sh vaqtda qatnasha olishlari uchun qulay soatlarga qo'yilgan.
+          </p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="schedule-table">
+            <caption>
+              2026–2027 o'quv yili kuzgi semestri uchun UrSU Clubs haftalik mashg'ulotlar jadvali va bo'sh o'rinlar kvotasi
+            </caption>
+
+            <thead>
+              <tr>
+                <th scope="col">Klub yo'nalishi</th>
+                <th scope="col">Guruh / Yo'nalish</th>
+                <th scope="col">Hafta kunlari</th>
+                <th scope="col">Boshlanish vaqti</th>
+                <th scope="col">Bino va Xona</th>
+                <th scope="col">Qabul kvotasi</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td rowspan="2" class="cell-group-title"><strong>IT va Kiberxavfsizlik</strong></td>
+                <td>Full-Stack Veb Dasturlash</td>
+                <td>Dushanba, Chorshanba, Juma</td>
+                <td>15:00 – 17:00</td>
+                <td>IT-inkubatsiya markazi, 204-xona</td>
+                <td>40 ta o'rin (12 ta bo'sh)</td>
+              </tr>
+
+              <tr>
+                <td>Kiberxavfsizlik (CTF) va AI</td>
+                <td>Seshanba, Payshanba</td>
+                <td>16:00 – 18:00</td>
+                <td>IT-inkubatsiya markazi, 208-xona</td>
+                <td>30 ta o'rin (8 ta bo'sh)</td>
+              </tr>
+
+              <tr>
+                <td rowspan="2" class="cell-group-title"><strong>Robototexnika va IoT</strong></td>
+                <td>Arduino va Sxemotexnika (Boshlang'ich)</td>
+                <td>Dushanba, Juma</td>
+                <td>14:00 – 16:00</td>
+                <td>Fizika-matematika binosi, 105-lab</td>
+                <td>25 ta o'rin (9 ta bo'sh)</td>
+              </tr>
+              <tr>
+                <td>Avtonom Robotlar va IoT (Ilg'or)</td>
+                <td>Chorshanba, Shanba</td>
+                <td>15:30 – 17:30</td>
+                <td>Fizika-matematika binosi, 107-lab</td>
+                <td>20 ta o'rin (5 ta bo'sh)</td>
+              </tr>
+              <tr>
+                <td class="cell-group-title"><strong>Kitobxonlar Klubi</strong></td>
+                <td>Non-Fiction va "Deep Work" tahlili</td>
+                <td>Har Shanba</td>
+                <td>14:00 – 16:00</td>
+                <td>Axborot-resurs markazi (ARM), 3-zal</td>
+                <td>60 ta o'rin (22 ta bo'sh)</td>
+              </tr>
+
+              <tr class="table-summary-row">
+                <td colspan="5"><strong>Jami yillik qabul kvotasi va hozirda mavjud bo'sh o'rinlar soni:</strong></td>
+                <td><strong>175 ta o'rin (56 ta bo'sh)</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container content-with-aside">
+        <div class="gallery-column">
+          <!-- [A10] <figure> va <figcaption> rasmlar -->
+          <figure class="media-figure">
+            <img
+              src="rasmlar/kitobxonlar-uchrashuvi.jpg"
+              alt="UrDU Axborot-resurs markazida Kitobxonlar klubining haftalik kitob muhokamasi"
+              class="figure-img"
+            >
+            <figcaption class="figure-caption">
+              3-rasm. Axborot-resurs markazida Cal Newportning "Deep Work" asari bo'yicha o'tkazilgan ochiq munozara.
+            </figcaption>
+          </figure>
+
+          <figure class="media-figure">
+            <img
+              src="rasmlar/robo-sumo-musobaqa.jpg"
+              alt="Urganch davlat universiteti talabalari yaratgan mini-robotlar bellashuvi"
+              class="figure-img"
+            >
+            <figcaption class="figure-caption">
+              4-rasm. Fakultetlararo "Robo-Sumo" musobaqasi g'oliblarini taqdirlash marosimi.
+            </figcaption>
+          </figure>
+        </div>
+        <aside class="announcement-aside" aria-label="Klubga qabul qoidalari">
+          <span class="aside-tag">Eslatma</span>
+          <h3>Klub a'zoligiga qabul qilish tartibi</h3>
+          <p>
+            Barcha yo'nalishlarda mashg'ulotlar <strong>mutlaqo bepul</strong> olib boriladi. Talabadan faqat intizom va haftalik amaliy vazifalarni o'z vaqtida bajarish talab etiladi.
+          </p>
+          <ul class="aside-list">
+            <li><strong>1-qadam:</strong> Onlayn arizani to'ldirish.</li>
+            <li><strong>2-qadam:</strong> Koordinator bilan qisqa suhbat.</li>
+            <li><strong>3-qadam:</strong> O'qish smenangizga mos guruhga biriktirilish.</li>
+          </ul>
+          <a href="aloqa.html" class="btn btn-primary btn-full">Hoziroq ariza topshirish</a>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- [A1] SEMANTIK FOOTER VA [B10] FLEXBOX USTUNLAR -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-flex-row">
+        <div class="footer-col footer-col-brand">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-icon">U</span>
+            <span class="logo-text">UrSU <strong>Clubs</strong></span>
+          </a>
+          <p>
+            Urganch davlat universitetining IT, robototexnika va kitobxonlik bo'yicha rasmiy talabalar klubi.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Sahifalar</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Bosh sahifa</a></li>
+            <li><a href="batafsil.html">Klublar va Jadval</a></li>
+            <li><a href="aloqa.html">A'zo bo'lish (Forma)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Bog'lanish</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:clubs@urdu.uz">Email: clubs@urdu.uz</a></li>
+            <li><a href="tel:+998622246700">Tel: +998 (62) 224-67-00</a></li>
+            <li><span>Manzil: Urganch sh., H. Olimjon ko'chasi, 14-uy</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 UrSU Clubs — Urganch davlat universiteti. Barcha huquqlar himoyalangan.</p>
+        <p>2-amaliy ish talablari asosida Flexbox yordamida ishlab chiqildi.</p>
+      </div>
+    </div>
+  </footer>
+  <a href="#top" class="back-to-top" aria-label="Sahifa yuqorisiga qaytish">&uarr; Yuqoriga</a>
+
+</body>
+</html>
